@@ -1,0 +1,123 @@
+/* Hidden Class CSS */
+.container .summary-box .card-box .card .card-img {
+  display: none;
+}
+
+.container .summary-box .card-box .card .card-action {
+  display: none;
+}
+
+.container .content-box .card-box .card .card-label {
+  display: none;
+}
+
+.container .content-box .card-box .card .card-desc {
+  display: none;
+}
+
+.container .content-box .card-box .card .card-price {
+  display: none;
+}
+
+.container .img-background {
+  display: none;
+}
+
+/* desktop */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.summary-box {
+  border-style: none;
+}
+
+.content-box {
+  border-style: none;
+}
+
+.container
+  .summary-box
+  .card-box
+  .card
+  .card-desc
+  .card-caption
+  .body-large-semibold {
+  padding: 20px;
+}
+
+.container .content-box .card-box .card .card-img img {
+  width: 1109px;
+  height: 307px;
+}
+
+.container .content-box .card-box .card .card-action .btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 15px 10px 15px;
+  margin: 40px 0 0;
+  border-radius: var(--rounded-md);
+  -webkit-border-radius: var(--rounded-md);
+  -moz-border-radius: var(--rounded-md);
+  -ms-border-radius: var(--rounded-md);
+  -o-border-radius: var(--rounded-md);
+}
+
+@media screen and (max-width: 1024px) {
+  .container .content-box .card-box .card .card-img img {
+    width: 950px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .content-box .card-box .card .card-img img {
+    width: 700px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .container
+    .summary-box
+    .card-box
+    .card
+    .card-desc
+    .card-caption
+    .body-large-semibold {
+    padding: 20px 0;
+  }
+
+  .container .content-box .card-box .card .card-img img {
+    width: 400px;
+    height: 120px;
+  }
+
+  .container
+    .summary-box
+    .card-box
+    .card
+    .card-desc
+    .card-caption
+    .body-medium-size {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .container .content-box .card-box .card .card-img img {
+    width: 340px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .container .content-box .card-box .card .card-img img {
+    width: 100%;
+    height: 90%;
+  }
+}
