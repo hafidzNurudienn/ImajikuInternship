@@ -1,0 +1,101 @@
+.summary-box[data-variant="banner-cta-variant-4"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-box[data-variant="banner-cta-variant-4"] .card-box .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-style: none;
+}
+
+.summary-box[data-variant="banner-cta-variant-4"]
+  .card-box
+  .card
+  .card-label
+  h3 {
+  margin: unset;
+  font-weight: bold;
+}
+
+.summary-box[data-variant="banner-cta-variant-4"]
+  .card-box
+  .card
+  .card-label
+  p {
+  padding: 20px 0 40px 0;
+  margin: unset;
+}
+
+.summary-box[data-variant="banner-cta-variant-4"]
+  .card-box
+  .card
+  .card-img
+  img {
+  width: 1109px;
+  height: 307px;
+}
+
+.summary-box[data-variant="banner-cta-variant-4"]
+  .card-box
+  .card
+  .card-desc
+  .card-action {
+  padding: 20px;
+}
+
+.summary-box[data-variant="banner-cta-variant-4"]
+  .card-box
+  .card
+  .card-desc
+  .card-action
+  .btn {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--rounded-md);
+  -webkit-border-radius: var(--rounded-md);
+  -moz-border-radius: var(--rounded-md);
+  -ms-border-radius: var(--rounded-md);
+  -o-border-radius: var(--rounded-md);
+}
+
+@media screen and (max-width: 1024px) {
+  .summary-box[data-variant="banner-cta-variant-4"]
+    .card-box
+    .card
+    .card-img
+    img {
+    width: 950px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .summary-box[data-variant="banner-cta-variant-4"]
+    .card-box
+    .card
+    .card-img
+    img {
+    width: 700px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 426px) {
+  .card-img img {
+    /* Ganti gambar */
+    content: url("asset/image-2.png"); /* Gambar baru untuk tampilan mobile */
+  }
+  .summary-box[data-variant="banner-cta-variant-4"]
+    .card-box
+    .card
+    .card-img
+    img {
+    width: 300px;
+    height: 300px;
+  }
+}
