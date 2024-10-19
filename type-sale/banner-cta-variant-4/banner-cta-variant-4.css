@@ -26,7 +26,7 @@
   .card
   .card-label
   p {
-  padding: 20px 0 40px 0;
+  padding: 26px 0 52px 0;
   margin: unset;
 }
 
@@ -44,7 +44,7 @@
   .card
   .card-desc
   .card-action {
-  padding: 20px;
+  padding: 52px 0 50px 0;
 }
 
 .summary-box[data-variant="banner-cta-variant-4"]
@@ -85,10 +85,9 @@
   }
 }
 
-@media (max-width: 426px) {
+@media screen and (max-width: 426px) {
   .card-img img {
-    /* Ganti gambar */
-    content: url("asset/image-2.png"); /* Gambar baru untuk tampilan mobile */
+    content: url("asset/banner-variant-4-2.png");
   }
   .summary-box[data-variant="banner-cta-variant-4"]
     .card-box
@@ -97,5 +96,20 @@
     img {
     width: 300px;
     height: 300px;
+  }
+
+  .summary-box[data-variant="banner-cta-variant-4"]
+    .card-box
+    .card
+    .card-label
+    p {
+    padding: 26px 0 26px 0;
+  }
+  .summary-box[data-variant="banner-cta-variant-4"]
+    .card-box
+    .card
+    .card-desc
+    .card-action {
+    padding: 26px 0 50px 0;
   }
 }
