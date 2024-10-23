@@ -1,0 +1,51 @@
+/* SUMMARY Variant 5 */
+
+.summary-box[data-variant="summary-variant-5"] {
+  width: 100%;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card {
+  border: none;
+  width: 100%;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card-label {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card-img {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card-desc {
+  width: max-content;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card-caption h4 {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card-caption h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.summary-box[data-variant="summary-variant-5"] .card-caption p {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-5"] .card-action {
+  display: none;
+}
+
+/* END OF SUMMARY VARIANT 5 */

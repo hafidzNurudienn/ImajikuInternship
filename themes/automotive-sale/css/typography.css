@@ -1,0 +1,83 @@
+/*!
+* PT. IMAJIKU CIPTA MEDIA
+* Copyright 2024 IMAJIKU.
+*/
+
+/* =Main Variables Styles
+------------------------------------------------------------ */
+:root{
+
+	/*color body text*/
+	--color-text-1: #232323;
+	--color-text-2: #444444;
+
+	/*color main/identity 1*/
+	--color-1: #FFAAAA;
+	/*color main/identity 2*/
+	--color-2: #FF5B5B;
+	/*color main/identity 3*/
+	--color-3: #343f52;
+
+	/*color button*/
+	--color-button-1: #FFD60A;
+	--color-button-2: #E0B700;
+
+	/*Font Family 1 main*/
+	--font-family-1: 'Montserrat', sans-serif;
+	
+	/*Font Family 2*/
+	--font-family-2: 'Open Sans', sans-serif;
+
+	/*Font Family 3*/
+	--font-family-3: 'Poppins', sans-serif;
+	
+}
+
+/* =CSS RESET : reset default browser style
+-------------------------------------------------------------*/
+html ,body{
+	background-color: var(--white);
+	scroll-behavior: smooth;
+	position: relative;
+}
+body {
+	color: var(--color-text-1);
+	font-size: 1rem;
+	font-family: var(--font-family-4);
+	overflow-x: hidden;
+}
+
+/* =HYPERLINK
+------------------------------------------------------------ */
+a{
+	color: var(--color-button-1);
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+a:link {
+	color: var(--color-button-1); 
+	text-decoration: none;
+}
+a:visited {
+	color: var(--color-button-1); 
+	text-decoration: none;
+}
+a:hover {
+	color: var(--color-button-2);
+	text-decoration: none;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+a:hover, 
+a:active {
+	outline: none;
+}
+a:focus,
+a:focus-visible{
+	outline: none;
+}
+:focus {
+	outline: none;
+}

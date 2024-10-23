@@ -1,0 +1,3 @@
+# Ignore win file system
+**Thumbs.db
+.DS_Store

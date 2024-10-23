@@ -1,0 +1,33 @@
+/*!
+* PT. IMAJIKU CIPTA MEDIA
+* Copyright 2024 IMAJIKU.
+*/
+
+/* = GENERAL
+-------------------------------------------------------------*/
+
+/* = NAVBAR
+-------------------------------------------------------------*/
+/* NAVBAR */
+nav {
+    font-family: var(--heading-font);
+}
+
+.nav-brand-dekstop {
+    font-weight: var(--font-medium);
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand-mobile {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-nav button {
+    padding: 7.5px 15px 7.5px 15px;
+    border-radius: var(--rounded-xs);
+    border: 0;
+    color: black;
+    background-color: rgb(235, 238, 247);
+}

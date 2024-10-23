@@ -1,0 +1,42 @@
+/* SUMMARY Variant 3 */
+
+.summary-box[data-variant="summary-variant-3"] .card {
+  border: none;
+}
+
+.summary-box[data-variant="summary-variant-3"] .card-label {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-3"] .card-img {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-3"] .card-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.summary-box[data-variant="summary-variant-3"] .card-caption h4 {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-3"] .card-caption h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-box[data-variant="summary-variant-3"] .card-caption p {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-3"] .card-action {
+  display: none;
+}
+
+/* END OF SUMMARY VARIANT 3 */

@@ -1,0 +1,106 @@
+/*!
+* PT. IMAJIKU CIPTA MEDIA
+* Copyright 2024 IMAJIKU.
+*/
+
+/* = GENERAL
+------------------------------------------------------------ */
+
+/* = FOOTER
+------------------------------------------------------------ */
+
+
+/* = CARD
+------------------------------------------------------------ */
+
+@import url(/themes/default/css/variant/layout/layout-horizontal.css);
+@import url(/themes/default/css/variant/layout/layout-vertical.css);
+@import url(/themes/default/css/variant/summary/summary-variant-1.css);
+@import url(/themes/default/css/variant/summary/summary-variant-2.css);
+@import url(/themes/default/css/variant/summary/summary-variant-3.css);
+@import url(/themes/default/css/variant/summary/summary-variant-4.css);
+@import url(/themes/default/css/variant/accordion/accordion-variant-1.css);
+@import url(/themes/default/css/variant/card/card-variant-8.css);
+@import url(/themes/default/css/variant/card/card-variant-6.css);
+
+/* ====HERO===== */
+
+  .fade-down {
+    animation: fadeDown 1s ease-out;
+  }
+
+.swiper-slide-1 .hero-content {
+  font-family: var(--heading-font);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  left: 0;
+  transform: translate(0, -50%);
+  margin: auto;
+  color: #ffffff;
+  z-index: 99;
+  text-align: center;
+}
+.swiper-slide-2 .hero-content {
+  font-family: var(--heading-font);
+  display: block;
+  position: absolute;
+  right: 1rem;
+  top: 40%;
+  left: 3.75rem;
+  transform: translate(0, -50%);
+  color: #ffffff;
+  z-index: 99;
+  /* width: max-content; */
+}
+.swiper-slide-3 .hero-content {
+  font-family: var(--heading-font);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 55%;
+  left: 0;
+  transform: translate(0, -50%);
+  margin: auto;
+  z-index: 99;
+  text-align: center;
+}
+
+.main-hero .Swipercatalog {
+  border-radius: var(--rounded-6xl);
+  margin-bottom: 10vh;
+  width: 100%;
+  height: 90vh;
+  top: 10vh;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-hero .swiper-pagination-bullet-active {
+  border-radius: 0;
+  width: 20px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+.swiper-pagination-hero .swiper-pagination-bullet {
+  border-radius: 0;
+  width: 20px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.swiper-button-next:after {
+  content: none;
+}
+
+.swiper-button-prev::after {
+  content: none;
+}
+

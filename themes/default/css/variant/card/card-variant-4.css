@@ -1,0 +1,95 @@
+/* CONTENT Variant 4 */
+.content-box[data-variant="card-variant-4"] {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.content-box[data-variant="card-variant-4"] .card-box {
+  gap: var(--spacing-6xl) 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-box[data-variant="card-variant-4"] .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--gray-200);
+  border: none;
+  width: 350px;
+  border-radius: var(--rounded-lg);
+  padding: 16px;
+  margin: auto;
+  transition: transform 1s ease, box-shadow 1s ease;
+}
+
+.content-box[data-variant="card-variant-4"] .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-box[data-variant="card-variant-4"] .card-label {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-4"] .card-img {
+  width: 70px;
+  height: 70px;
+}
+
+.content-box[data-variant="card-variant-4"] .card-img img {
+  max-width: 70px;
+  object-fit: cover;
+  /* border-radius: var(--rounded-lg); */
+  transition: opacity 1s ease, visibility 1s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+.content-box[data-variant="card-variant-4"] .card-desc-head {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-4"] .card-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-box[data-variant="card-variant-4"] .card-caption p {
+  margin: 0;
+}
+
+.content-box[data-variant="card-variant-4"] .card-caption h6 {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-4"] .card-caption h5 {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-4"] .card-price {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-4"] .card-action {
+  display: none;
+}
+
+@media (max-width: 1199.98px) {
+  .content-box[data-variant="card-variant-4"] .card {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content-box[data-variant="card-variant-4"] .card {
+    width: 400px;
+  }
+}
+/* END OF CONTENT VARIANT 4 */

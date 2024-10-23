@@ -1,0 +1,143 @@
+/*!
+* PT. IMAJIKU CIPTA MEDIA
+* Copyright 2024 IMAJIKU.
+*/
+
+/* 3k Larger Devices, Wider Screens */
+@media only screen and (min-width: 3840px) {
+
+}
+/* 2k Larger Devices, Wider Screens */
+@media only screen and (min-width: 2560px) {
+
+}
+/* 1k Larger Devices, Wider Screens */
+@media only screen and (min-width: 1920px) {
+
+}
+/* x-large devices, large desktops */
+@media only screen and (min-width : 1400px) {
+
+}
+@media only screen and (max-width : 1399.98px) {
+
+}
+/* large devices, desktops */
+@media only screen and (min-width : 1200px) {
+
+}
+@media only screen and (max-width : 1199.98px) {
+	
+}
+@media only screen and (min-width : 1024px) {
+	
+}
+@media only screen and (max-width : 1024px) {
+
+}
+/* medium devices, tablets */
+@media only screen and (min-width : 992px) {
+
+}
+@media only screen and (max-width : 991.98px) {
+    .main-hero{
+        gap: 50px !important;
+    }
+
+}
+@media only screen and (max-width : 812px) {
+	
+}
+/* small devices, landscape phone */
+@media only screen and (min-width : 768px) {
+    #hero .container-xl {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+}
+@media only screen and (max-width : 767.98px) {
+
+    [data-variant="variant-1"] .faq-content {
+            flex-direction: column;
+        }
+    
+    [data-variant="variant-1"] .faq-content-top,
+    [data-variant="variant-1"] .faq-content-bottom {
+        width: 100% !important;
+
+    }
+
+    [data-variant="variant-2"] .faq-content-top,
+    [data-variant="variant-2"] .faq-content-bottom {
+        width: 100% !important;
+    }
+
+    [data-variant="variant-2"] .faq-content,
+    [data-variant="variant-2"] .faq-content {
+        flex-direction: column;
+    }
+
+    [data-variant="variant-2"] .faq-content {
+        width: 100%;
+    }
+
+    [data-variant="variant-3"] .faq-content-top,
+    [data-variant="variant-3"] .faq-content-bottom {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    [data-variant="variant-3"] .faq-content-bottom {
+        width: 100% !important;
+    }
+
+    /* hero */
+    .main-hero {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .main-hero-content {
+        width: 100% !important;
+    }
+
+    .main-hero-content-img {
+        width: 100% !important;
+        margin-top: -50px;
+    }
+
+    .main-hero-content-img img {
+        max-height: 400px;
+    }
+	
+}
+@media only screen and (max-width : 640px) {
+
+}
+/* x-small Devices, portrait phones */
+@media only screen and (min-width : 576px) {
+
+}
+@media only screen and (max-width : 575.98px) {
+
+}
+@media only screen and (max-width : 480px) {
+    .main-hero {
+        margin-top: 0px;
+    }
+
+    .main-hero-content-img img {
+        max-height: 250px;
+    }
+}
+@media only screen and (max-width : 375px) {
+
+}
+@media only screen and (max-width : 360px) {
+
+}
+@media only screen and (max-width : 320px) {
+	
+}

@@ -1,0 +1,152 @@
+
+/* SUMMARY Variant 2 */
+
+.summary-box[data-variant="card-slider-2"] .card {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.summary-box[data-variant="card-slider-2"] .card-label {
+  display: none;
+}
+
+.summary-box[data-variant="card-slider-2"] .card-img {
+  display: none;
+}
+
+.summary-box[data-variant="card-slider-2"] .card-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.summary-box[data-variant="card-slider-2"] .card-caption h4 {
+  display: none;
+}
+
+.summary-box[data-variant="card-slider-2"] .card-caption h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.summary-box[data-variant="card-slider-2"] .card-caption h3::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 4px;
+  background-color: var(--gray-400);
+  border-radius: var(--rounded-lg);
+  margin-top: 10px;
+}
+
+.summary-box[data-variant="card-slider-2"] .card-caption p {
+  display: none;
+}
+
+.summary-box[data-variant="card-slider-2"] .card-action {
+  display: none;
+}
+
+/* END OF SUMMARY VARIANT 2 */
+
+
+.content-box[data-variant="card-slider-2"] .swiper {
+  /* margin-top: 40px; */
+  width: 100%;
+  height: calc(100% * 33.3% / 100%);
+  overflow: hidden;
+}
+
+.content-box[data-variant="card-slider-2"] .swiper-slide {
+  position: relative;
+  width: 100%;
+  opacity: 0.5;
+  transform: scale(0.85);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  border-radius: 0.4285rem;
+}
+
+.content-box[data-variant="card-slider-2"] .swiper-backface-hidden .swiper-wrapper .swiper-slide {
+  transform: scale(0.85) translateZ(0);
+}
+
+.content-box[data-variant="card-slider-2"] .swiper-slide.swiper-slide-active {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+
+.content-box[data-variant="card-slider-2"] .swiper-backface-hidden .swiper-slide.swiper-slide-active {
+  transform: scale(1) translateZ(0) !important;
+}
+
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card {
+  
+  min-width: 200px;
+  max-width: 630px;
+  width: 100%;
+  border-radius: var(--rounded-lg);
+  margin: auto;
+}
+
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card .card-img-wrapper img {
+  width: 100%;
+  height: 325px;
+  object-fit: cover;
+  border-radius: var(--rounded-lg) var(--rounded-lg) 0 0;
+}
+.content-box[data-variant="card-slider-2"] .swiper .swiper-pagination {
+  display:none;
+}
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card .card-body {
+  text-align: start !important;
+}
+
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card .card-body .card-category {
+  margin-bottom: 0.5rem ;
+}
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card .card-body .card-category .body-medium-medium{
+  color:var(--text-dark-2);
+}
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card .card-body .card-desc ul{
+  list-style: disc;
+}
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card .card-body .card-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 20px;
+}
+.content-box[data-variant="card-slider-2"] .swiper .swiper-wrapper .swiper-slide .card .card-body .card-desc .body-small-regular{
+  color: var(--text-dark-2);
+}
+
+@media (min-width: 768px) {
+  .content-box[data-variant="card-slider-1"] .swiper {
+    height: calc(90% * 33.3% / 100%);
+  }
+
+  .content-box[data-variant="card-slider-1"] .swiper .swiper-wrapper .swiper-slide {
+    width: 100%;
+    transform: scale(0.95);
+  }
+
+  .content-box[data-variant="card-slider-1"] .swiper-backface-hidden .swiper-slide {
+    transform: scale(0.95) translateZ(0);
+  }
+  .content-box[data-variant="card-slider-1"] .card {
+    /* max-width: 400px; */
+  }
+
+  .content-box[data-variant="card-slider-1"] .swiper .swiper-wrapper .swiper-slide .card .card-img-wrapper img {
+    display: block;
+    width: 100%;
+    border-radius: var(--rounded-xl);
+    /* margin: 2px; */
+  }
+}

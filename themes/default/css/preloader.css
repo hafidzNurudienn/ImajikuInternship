@@ -1,0 +1,112 @@
+/*!
+* PT. IMAJIKU CIPTA MEDIA
+* Copyright 2024 IMAJIKU.
+*/
+
+/* =STYLE
+------------------------------------------------------------ */
+
+/*preloader*/
+.preload-mjk {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: #ffffff;
+	z-index: 2000;
+}
+.preload-mjk.loading{
+	display: none;
+}
+.preload-mjk-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	justify-content: center;
+	align-items: center;
+	overflow:hidden;
+}
+.preload-mjk-item i {
+	font-size: 30px;
+	margin: 0 auto;
+	position: relative;
+	color: #f3715f;
+}
+.preload-mjk-item img{
+	display: block;
+	width: auto;
+	margin: 0 auto;
+}
+
+/* =Animation - Library Epic Spinner for preload
+-------------------------------------------------------------*/
+
+/*orbit spinner*/
+.korbit-spinner, 
+.korbit-spinner * {
+	box-sizing: border-box;
+}
+.korbit-spinner {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	perspective: 800px;
+}
+.korbit-spinner .orbit {
+	position: absolute;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.korbit-spinner .orbit:nth-child(1) {
+	left: 0%;
+	top: 0%;
+	animation: korbit-spinner-orbit-one-animation 1200ms linear infinite;
+	border-bottom: 3px solid #f3715f;
+}
+.korbit-spinner .orbit:nth-child(2) {
+	right: 0%;
+	top: 0%;
+	animation: korbit-spinner-orbit-two-animation 1200ms linear infinite;
+	border-right: 3px solid #f3715f;
+}
+.korbit-spinner .orbit:nth-child(3) {
+	right: 0%;
+	bottom: 0%;
+	animation: korbit-spinner-orbit-three-animation 1200ms linear infinite;
+	border-top: 3px solid #f3715f;
+}
+
+@keyframes korbit-spinner-orbit-one-animation {
+	0% {
+		transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@keyframes korbit-spinner-orbit-two-animation {
+	0% {
+		transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@keyframes korbit-spinner-orbit-three-animation {
+	0% {
+		transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}

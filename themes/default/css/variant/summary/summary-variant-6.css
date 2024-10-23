@@ -1,0 +1,24 @@
+/* SUMMARY Variant 6 */
+
+.summary-box[data-variant="summary-variant-6"] .card {
+  border: none;
+}
+
+.summary-box[data-variant="summary-variant-6"] .card-label {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-6"] .card-img {
+  display: none;
+}
+
+.summary-box[data-variant="summary-variant-6"] .card-desc {
+  display: none;
+}
+
+
+.summary-box[data-variant="summary-variant-6"] .card-action {
+  display: none;
+}
+
+/* END OF SUMMARY VARIANT 6 */

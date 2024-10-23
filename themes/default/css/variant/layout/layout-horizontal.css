@@ -1,0 +1,10 @@
+.section[data-variant="horizontal"] .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section[data-background="hide"] .container .img-background {
+  display: none;
+}

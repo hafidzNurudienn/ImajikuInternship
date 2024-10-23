@@ -1,0 +1,116 @@
+/* CONTENT Variant 1 */
+
+.content-box[data-variant="card-variant-1"] {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.content-box[data-variant="card-variant-1"] .card-box {
+  gap: var(--spacing-6xl) var(--spacing-3xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-box[data-variant="card-variant-1"] .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--gray-400);
+  width: 255px;
+  height: 250px;
+  border-radius: var(--rounded-lg);
+  padding: 16px;
+  margin: auto;
+  transition: transform 1s ease, box-shadow 1s ease;
+}
+
+.content-box[data-variant="card-variant-1"] .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  /* transition: 0.5s; */
+  border-color: var(--gray-600);
+
+  .card-img {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 1s ease;
+    display: none;
+  }
+
+  .card-caption p {
+    display: block;
+    overflow: visible;
+    text-overflow: unset;
+    transition: all 1s ease;
+  }
+}
+
+.content-box[data-variant="card-variant-1"] .card-label {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-1"] .card-img {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box[data-variant="card-variant-1"] .card-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: var(--rounded-lg);
+  transition: 0.5s;
+}
+
+.content-box[data-variant="card-variant-1"] .card-desc-head {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-1"] .card-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.content-box[data-variant="card-variant-1"] .card-caption p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-box[data-variant="card-variant-1"] .card-caption h6 {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-1"] .card-price {
+  display: none;
+}
+
+.content-box[data-variant="card-variant-1"] .card-action {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .content-box[data-variant="card-variant-1"] .card {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content-box[data-variant="card-variant-1"] .card {
+    width: 270px;
+  }
+}
+
+/* END OF ON CONTENT VARIANT 1 */

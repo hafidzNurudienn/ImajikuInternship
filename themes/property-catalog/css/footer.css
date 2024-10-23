@@ -1,0 +1,112 @@
+
+  /* SECTION */
+  .footer[data-variant="footer"] {
+    color: var(--text-dark-1);
+    font-size: 15px;
+    line-height: 24px;
+    display:flex;
+    flex-direction:column-reverse;
+    width:100%;
+    margin-top: 100px;
+  }
+  .footer[data-variant="footer"] h4 {
+    color: var(--text-dark-1);
+  }
+
+  /* SUMMARY */
+  
+  .summary-box[data-variant="footer"] {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 30px 100px 10px;
+    color: var(--text-light);
+  }
+  
+
+  /* CONTENT-BOX */
+  
+  .content-box[data-variant="footer"] {
+    background-color: var(--btn-bg-secondary);
+    width: 100%;
+    padding: 60px 40px;
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .content-box[data-variant="footer"] .footer-desc {
+    text-align: justify;
+  }
+  
+  .content-box[data-variant="footer"] .footer-contact {
+      height: auto;
+      display:flex;
+      justify-content:center;
+  }
+  
+  .content-box[data-variant="footer"] .footer-image {
+      display:flex;
+      justify-content: center;
+  }
+  .content-box[data-variant="footer"] .footer-image img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .content-box[data-variant="footer"] .footer-links {
+    list-style: none;
+    padding-left: 0;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  
+  .content-box[data-variant="footer"] .social-icons a {
+    color: var(--text-dark-1);
+    font-size: var(--font-body-large-size);
+    display: inline-block;
+    line-height: var(--line-height-sm);
+    text-align: center;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .content-box[data-variant="footer"] .social-icons a:hover {
+    color: var(--text-dark-2);
+  }
+
+/* RESPONSIVE */
+
+  @media (max-width: 991px) {
+    .footer[data-variant="footer"] {
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+  
+    .footer[data-variant="footer"] {
+      text-align: center;
+    }
+    .content-box[data-variant="footer"] .footer-image{
+      margin-bottom:20px;
+    }
+    
+    .content-box[data-variant="footer"] .footer-desc{
+      margin-bottom:20px;
+    }
+    .content-box[data-variant="footer"] .social-icons {
+      justify-content: center;
+    }
+    .content-box[data-variant="footer"] .copyright-text {
+      text-align: center;
+    }
+    .content-box[data-variant="footer"] .footer-desc {
+  
+      text-align: center;
+    }
+    .content-box[data-variant="footer"] .footer-contact {
+      padding-left: 0;
+    }
+  }
+  
+

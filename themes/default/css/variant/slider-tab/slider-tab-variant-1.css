@@ -1,0 +1,80 @@
+/* slider-tab-variant-1 */
+
+.summary-box[data-variant="slider-tab-1"] .card {
+    border-style: none;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .content-tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 29px;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .content-tab .nav-item button {
+    padding: 8px 12px;
+    border-radius: var(--rounded-md) !important;
+    border: 1px solid var(--btn-border);
+    color: var(--btn-bg-primary);
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .content-tab .room-swiper-arrow {
+    display: none;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .card-box .card-desc {
+    padding: 20px;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .card-subtitle {
+    display: none;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .card-action {
+    display: flex;
+    justify-content: center;
+}
+
+/* .content-box[data-variant="slider-tab-variant-1"] .slider-tab-dec {
+  padding: 1rem;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .slider-tab-subtitle {
+  display: none;
+} */
+
+
+.content-box[data-variant="slider-tab-variant-1"] .nav-pills .nav-link.active {
+    background-color: var(--btn-bg-primary) !important;
+    color: var(--bg-light);
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .tab-parents {
+    display: flex;
+    gap: 27px;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .swiper-button-next:after,
+.content-box[data-variant="slider-tab-variant-1"] .swiper-button-prev:after {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.content-box[data-variant="slider-tab-variant-1"] .swiper-button-next,
+.content-box[data-variant="slider-tab-variant-1"] .swiper-button-prev {
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Transparan putih untuk efek kaca */
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    /* Efek blur kaca */
+    -webkit-backdrop-filter: blur(10px);
+    /* Untuk Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Garis luar tipis */
+    box-shadow: 0 20px 22px rgba(0, 0, 0, 0.1);
+    /* Sedikit bayangan untuk efek 3D */
+    /* opacity: 20%; */
+    /* top: 17.5rem; */
+}
