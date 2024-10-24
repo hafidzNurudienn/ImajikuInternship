@@ -1,5 +1,5 @@
-<?php 
-$title_current = 'Tabs'; 
+<?php
+$title_current = 'Tabs';
 ?>
 
 <div class="section-top"></div>
@@ -7,8 +7,8 @@ $title_current = 'Tabs';
 	<div class="container">
 		<div class="mb-5">
 			<?php include 'components/slider-tab/slider-tab-variant-1.php'; ?>
+			
 		</div>
-
 		<div class="mb-5">
 			<?php include 'components/slider-tab/slider-tab-variant-2.php'; ?>
 		</div>

@@ -201,7 +201,7 @@
     <section id="image-preview" data-variant="1" data-background="hide">
         <div class="max-div d-flex flex-column container">
             <div class="summary-box" data-variant="image-preview-1">
-                <h3 class="summary-title">Title Mix</h3>
+                <h3 class="summary-title">Mixxx</h3>
                 <p class="summary-subtitle body-large-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>

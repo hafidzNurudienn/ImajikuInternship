@@ -2,18 +2,6 @@
 	
 	<footer>
 		<div class="footer">
-			<div class="footer-top">
-				<div class="container-md">
-					<div class="row">
-						<div class="col-12 col-sm-12 col-md-6 col-lg-8 mb-4">
-
-						</div>
-						<div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
-
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="footer-bottom">
 				<div class="container-fluid">
 					<div class="copyright">

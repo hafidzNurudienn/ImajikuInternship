@@ -1,0 +1,5 @@
+@media (max-width: 1200px) {
+  .content-box[data-variant="card-variant-3"] .card {
+    width: 300px;
+  }
+}

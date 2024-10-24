@@ -93,7 +93,7 @@
 -------------------------------------------------------------*/
 html,
 body {
-	background-color: var(--red);
+	background-color: var(--white);
 	scroll-behavior: smooth;
 	position: relative;
 }

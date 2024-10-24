@@ -13,16 +13,6 @@
 /* = CARD
 ------------------------------------------------------------ */
 
-@import url(/themes/default/css/variant/layout/layout-horizontal.css);
-@import url(/themes/default/css/variant/layout/layout-vertical.css);
-@import url(/themes/default/css/variant/summary/summary-variant-1.css);
-@import url(/themes/default/css/variant/summary/summary-variant-2.css);
-@import url(/themes/default/css/variant/summary/summary-variant-3.css);
-@import url(/themes/default/css/variant/summary/summary-variant-4.css);
-@import url(/themes/default/css/variant/accordion/accordion-variant-1.css);
-@import url(/themes/default/css/variant/card/card-variant-8.css);
-@import url(/themes/default/css/variant/card/card-variant-6.css);
-
 /* ====HERO===== */
 
   .fade-down {

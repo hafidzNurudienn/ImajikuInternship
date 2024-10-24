@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper-card-slider-variant-1', {
     loop: true,
     slidesPerView: 1,
     centeredSlides: true,
@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper', {
     
     pagination: {
         el: '.swiper-pagination',
-        clickable: true,
+        clickable: true, 
         
     },
     breakpoints: {

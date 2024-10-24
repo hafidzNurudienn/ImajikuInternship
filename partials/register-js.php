@@ -1,3 +1,6 @@
+<!-- axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 <!-- jquery -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
@@ -9,23 +12,26 @@
 
 <!-- preloader -->
 <script type="text/javascript">
-	$(document).ready(function() {
-		$('.preload-mjk').fadeOut(1200, function() {
+	$(document).ready(function () {
+		$('.preload-mjk').fadeOut(1200, function () {
 			$(this).addClass('loading');
 		});
 	});
 </script>
 
 <!-- jquery extra -->
-<script type="text/javascript" src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js" integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js"
+	integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" crossorigin="anonymous"></script>
 
 <!-- jquery extra cookie-->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <!-- jquery extra Time library-->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
 
 <!-- jquery validation -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<script type="text/javascript"
+	src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
 
 <!-- equal height -->
 <script type="text/javascript" src="themes/default/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
@@ -46,19 +52,23 @@
 	<script type="text/javascript" src="/themes/default/js/variant/slider-tab/slider-tab-variant-2.js"></script>
 	<script type="text/javascript" src="themes/default/js/variant/show-more/show-more-variant-1.js"></script>
 	<script type="text/javascript" src="themes/default/js/variant/show-more/show-more-variant-2.js"></script>
+
 <?php } elseif (in_array($url, array('property-sale'))) { ?>
 
 	<script type="text/javascript" src="themes/property-sale/js/main.js"></script>
+	<script type="text/javascript" src="themes/default/js/variant/show-more/show-more-variant-1.js"></script>
+	<script type="text/javascript" src="themes/default/js/variant/card-slider/card-slider-variant-1.js"></script>
 
 <?php } elseif (in_array($url, array('property-catalog'))) { ?>
 
 	<script type="text/javascript" src="themes/property-catalog/js/main.js"></script>
 	<script type="text/javascript" src="themes/property-catalog/js/swiper-hero.js"></script>
+	<script type="text/javascript" src="themes/default/js/variant/show-more/show-more-variant-2.js"></script>
+	<script type="text/javascript" src="themes/default/js/variant/card-slider/card-slider-variant-2.js"></script>
 
 <?php } elseif (in_array($url, array('property-inquiry'))) { ?>
 
 	<script type="text/javascript" src="themes/property-inquiry/js/main.js"></script>
-	<script type="text/javascript" src="themes/default/js/variant/card-slider/card-slider-variant-2.js"></script>
 
 <?php } elseif (in_array($url, array('textile-sale'))) { ?>
 

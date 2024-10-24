@@ -1,0 +1,36 @@
+/*!
+* PT. IMAJIKU CIPTA MEDIA
+* Copyright 2024 IMAJIKU.
+*/
+
+/* = CARD VARIANT 1
+-------------------------------------------------------------*/
+[data-variant=""] .card-box {}
+[data-variant=""] .card-box .card {}
+[data-variant=""] .card-box .card .card-label {}
+[data-variant=""] .card-box .card .card-label h3{}
+[data-variant=""] .card-box .card .card-img {}
+[data-variant=""] .card-box .card .card-img img{}
+[data-variant=""] .card-box .card .card-video{}
+[data-variant=""] .card-box .card .card-video video{}
+[data-variant=""] .card-box .card .card-desc {}
+[data-variant=""] .card-box .card .card-desc .card-date{}
+[data-variant=""] .card-box .card .card-desc .card-date p{}
+[data-variant=""] .card-box .card .card-desc .card-list {}
+[data-variant=""] .card-box .card .card-desc .card-list ul{}
+[data-variant=""] .card-box .card .card-desc .card-list ul li{}
+[data-variant=""] .card-box .card .card-desc .card-list ul li h3{}
+[data-variant=""] .card-box .card .card-desc .card-list ul li h4{}
+[data-variant=""] .card-box .card .card-desc .card-list ul li p{}
+[data-variant=""] .card-box .card .card-desc .card-caption{}
+[data-variant=""] .card-box .card .card-desc .card-caption h3 {}
+[data-variant=""] .card-box .card .card-desc .card-caption h4 {}
+[data-variant=""] .card-box .card .card-desc .card-caption p {}
+[data-variant=""] .card-box .card .card-desc .card-caption h5 {}
+[data-variant=""] .card-box .card .card-price {}
+[data-variant=""] .card-box .card .card-price h3{}
+[data-variant=""] .card-box .card .card-price h4{}
+[data-variant=""] .card-box .card .card-price h5{}
+[data-variant=""] .card-box .card .card-action .button-primary{}
+[data-variant=""] .card-box .card .card-action .button-secondary{}
+

@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="content-box" data-variant="card-slider-1">
-          <div class="swiper d-flex justify-content-center">
+          <div class="swiper swiper-card-slider-variant-1 d-flex justify-content-center">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="card">

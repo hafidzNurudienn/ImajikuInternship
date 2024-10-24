@@ -1,0 +1,20 @@
+/*!
+* PT. IMAJIKU CIPTA MEDIA
+* Copyright 2024 IMAJIKU.
+*/
+
+/* = SUMMARY VARIANT 1
+------------------------------------------------------------ */
+[data-variant=""] .card-box{}
+[data-variant=""] .card-box .card{}
+[data-variant=""] .card-box .card .card-img{}
+[data-variant=""] .card-box .card .card-img img{}
+[data-variant=""] .card-box .card .card-desc{}
+[data-variant=""] .card-box .card .card-desc .card-caption{}
+[data-variant=""] .card-box .card .card-desc .card-caption h1{}
+[data-variant=""] .card-box .card .card-desc .card-caption h3{}
+[data-variant=""] .card-box .card .card-desc .card-caption h4{}
+[data-variant=""] .card-box .card .card-desc .card-caption p{}
+[data-variant=""] .card-box .card .card-action{}
+[data-variant=""] .card-box .card .card-action .button-primary{}
+[data-variant=""] .card-box .card .card-action .button-secondary{}

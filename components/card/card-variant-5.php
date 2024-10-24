@@ -60,6 +60,9 @@
                         <a class="btn" href="">BUY</a>
                     </div>
                 </div>
+            </div>
+
+            <div class="card-box">
                 <div class="card">
                     <div class="card-label">
                         <h4>terlaris</h4>
@@ -94,6 +97,9 @@
                         <a class="btn" href="">BUY</a>
                     </div>
                 </div>
+            </div>
+
+            <div class="card-box">
                 <div class="card">
                     <div class="card-label">
                         <h4>terlaris</h4>
@@ -127,6 +133,9 @@
                         <a class="btn" href="">BUY</a>
                     </div>
                 </div>
+            </div>
+
+            <div class="card-box">
                 <div class="card">
                     <div class="card-label">
                         <h4>terlaris</h4>
@@ -160,7 +169,6 @@
                         <a class="btn" href="">BUY</a>
                     </div>
                 </div>
-
             </div>
 
         </div>

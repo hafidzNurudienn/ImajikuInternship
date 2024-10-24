@@ -23,7 +23,7 @@
                      <div class="faq-content-action">
                          <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Anda"
                              target="_blank">
-                             Hubungi Kami
+                             Hubungi Kami ydfydfdsf
                          </a>
                      </div>
 

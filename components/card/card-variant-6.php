@@ -1,6 +1,7 @@
 <section class="section" data-variant="vertical">
     <div class="container">
         <div class="summary-box" data-variant="summary-variant-3">
+
             <div class="card-box">
                 <div class="card">
                     <div class="card-label">
@@ -21,6 +22,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="content-box" data-variant="card-variant-6">
             <div class="card-box ">
@@ -46,7 +48,8 @@
                         <div class="card-caption">
                             <h6>Subtitle</h6>
                             <h5>Yoga (Meditasi)</h5>
-                            <p>Manfaatkan ruang yang tenang untuk sesi yoga atau meditasi dengan kami. Ikutilah Kegiatannya!</p>
+                            <p>Manfaatkan ruang yang tenang untuk sesi yoga atau meditasi dengan kami. Ikutilah
+                                Kegiatannya!</p>
                         </div>
                         <div class="card-price">
                             <h4>Rp 3.200.000</h4>
@@ -57,6 +60,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="card-box ">
                 <div class="card">
                     <div class="card-label">
                         <h4>terlaris</h4>
@@ -79,7 +85,8 @@
                         <div class="card-caption">
                             <h6>Subtitle</h6>
                             <h5>Kelas Memasak</h5>
-                            <p>Ikuti pelajaran memasak dasar bersama chef- chef terkenal. Pastikan Anda tidak melewatkannya!</p>
+                            <p>Ikuti pelajaran memasak dasar bersama chef- chef terkenal. Pastikan Anda tidak
+                                melewatkannya!</p>
                         </div>
                     </div>
                     <div class="card-price">
@@ -91,6 +98,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>

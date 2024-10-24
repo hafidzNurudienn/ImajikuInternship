@@ -1,16 +1,17 @@
 /* CONTENT Variant 1 */
 
 .content-box[data-variant="card-variant-1"] {
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
   width: 100%;
-}
-
-.content-box[data-variant="card-variant-1"] .card-box {
   gap: var(--spacing-6xl) var(--spacing-3xl);
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.content-box[data-variant="card-variant-1"] .card-box {
+  margin: auto;
 }
 
 .content-box[data-variant="card-variant-1"] .card {
@@ -23,7 +24,7 @@
   height: 250px;
   border-radius: var(--rounded-lg);
   padding: 16px;
-  margin: auto;
+
   transition: transform 1s ease, box-shadow 1s ease;
 }
 

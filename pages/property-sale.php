@@ -171,7 +171,7 @@
  			</div>
  		</div>
  		<div class="content-box" data-variant="card-slider-1">
- 			<div class="swiper swiperPromo d-flex justify-content-center">
+ 			<div class="swiper swiper-card-slider-variant-1 swiperPromo d-flex justify-content-center">
  				<div class="swiper-wrapper">
  					<div class="swiper-slide">
  						<div class="card">
@@ -670,101 +670,109 @@
 
  <!-- Rekomendasi Kegiatan -->
  <section class="section" data-variant="vertical">
- 	<div class="container">
- 		<div class="summary-box" data-variant="summary-variant-3">
- 			<div class="card-box">
- 				<div class="card">
- 					<div class="card-label">
- 						<h3>label</h3>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-catalog/images/content/section-extra-service/1.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-caption">
- 							<h4>subtitle</h4>
- 							<h3>Rekomendasi Kegiatan</h3>
- 							<p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
- 						</div>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">JOIN NOW</a>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 		<div class="content-box" data-variant="card-variant-6">
- 			<div class="card-box ">
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-recomendation-activity/2.png" alt="" />
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>8 Oktober 2024 (07:00 - 09:00)</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>Subtitle</h6>
- 							<h5>Yoga (Meditasi)</h5>
- 							<p>Manfaatkan ruang yang tenang untuk sesi yoga atau meditasi dengan kami. Ikutilah Kegiatannya!</p>
- 						</div>
- 						<div class="card-price">
- 							<h4>Rp 3.200.000</h4>
- 							<h5>Rp 1.000.000</h5>
- 						</div>
- 						<div class="card-action">
- 							<a class="btn" href="">BUY</a>
- 						</div>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-recomendation-activity/1.png" alt="" />
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>5 Oktober 2024 (10:00 - 12:00)</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>Subtitle</h6>
- 							<h5>Kelas Memasak</h5>
- 							<p>Ikuti pelajaran memasak dasar bersama chef- chef terkenal. Pastikan Anda tidak melewatkannya!</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- </section>
+    <div class="container">
+        <div class="summary-box" data-variant="summary-variant-3">
+
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h3>label</h3>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-extra-service/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-caption">
+                            <h4>subtitle</h4>
+                            <h3>Layanan Ekstra</h3>
+                            <p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">JOIN NOW</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="content-box" data-variant="card-variant-6">
+            <div class="card-box ">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-recomendation-activity/2.png" alt="" />
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>8 Oktober 2024 (07:00 - 09:00)</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>Subtitle</h6>
+                            <h5>Yoga (Meditasi)</h5>
+                            <p>Manfaatkan ruang yang tenang untuk sesi yoga atau meditasi dengan kami. Ikutilah
+                                Kegiatannya!</p>
+                        </div>
+                        <div class="card-price">
+                            <h4>Rp 3.200.000</h4>
+                            <h5>Rp 1.000.000</h5>
+                        </div>
+                        <div class="card-action">
+                            <a class="btn" href="">BUY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-box ">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-recomendation-activity/1.png" alt="" />
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>5 Oktober 2024 (10:00 - 12:00)</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>Subtitle</h6>
+                            <h5>Kelas Memasak</h5>
+                            <p>Ikuti pelajaran memasak dasar bersama chef- chef terkenal. Pastikan Anda tidak
+                                melewatkannya!</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
  <!-- banner cta -->
  <section
  	id=""
@@ -842,241 +850,255 @@
  </section>
  <!-- Fasilitas -->
  <section id="" class="section" data-variant="vertical" data-background="hide">
- 	<div class="container">
- 		<div class="summary-box" data-variant="summary-variant-3">
+    <div class="container">
+        <div class="summary-box" data-variant="summary-variant-3">
 
- 			<div class="card-box">
- 				<div class="card">
- 					<div class="card-label">
- 						<h3>label</h3>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-facility/1.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-caption">
- 							<h4>subtitle</h4>
- 							<h3>FASILITAS</h3>
- 							<p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
- 						</div>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">JOIN NOW</a>
- 					</div>
- 				</div>
- 			</div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h3>label</h3>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-facility/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-caption">
+                            <h4>subtitle</h4>
+                            <h3>Fasilitas</h3>
+                            <p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">JOIN NOW</a>
+                    </div>
+                </div>
+            </div>
 
- 		</div>
- 		<div class="content-box" data-variant="card-variant-4">
- 			<div class="card-box">
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-facility/1.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Kolam Renang</h5>
- 							<p>Kolam Renang</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-facility/2.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Security 24 Jam</h5>
- 							<p>Security 24 Jam
- 							</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-facility/3.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Ruang Hijau</h5>
- 							<p>Ruang Hijau</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-facility/4.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Pusat Kebugaran</h4>
- 								<p>Pusat Kebugaran</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-facility/5.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Area Parkir Luas</h4>
- 								<p>Area Parkir Luas</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-facility/6.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Kafe</h4>
- 								<p>Kafe</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
+        </div>
+        <div class="content-box" data-variant="card-variant-4">
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-facility/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Kolam Renang</h5>
+                            <p>Kolam Renang</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
 
- 			</div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-facility/2.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Security 24 Jam</h5>
+                            <p>Security 24 Jam
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
 
- 		</div>
- 		<div class="img-background">
- 			<img src="" alt="" />
- 		</div>
- 	</div>
- </section>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-facility/3.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Ruang Hijau</h5>
+                            <p>Ruang Hijau</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-facility/4.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Pusat Kebugaran</h4>
+                                <p>Pusat Kebugaran</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-facility/5.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Area Parkir Luas</h4>
+                                <p>Area Parkir Luas</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-facility/6.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Kafe</h4>
+                                <p>Kafe</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="img-background">
+            <img src="" alt="" />
+        </div>
+    </div>
+</section>
 
  <!-- section Why US -->
  <section id="" class="section" data-variant="vertical">
@@ -1230,148 +1252,153 @@
 
  <!-- section Kenapa Kami -->
  <section id="" class="section" data-variant="vertical" data-background="hide">
- 	<div class="container">
- 		<div class="summary-box" data-variant="summary-variant-2">
+    <div class="container">
+        <div class="summary-box" data-variant="summary-variant-2">
 
- 			<div class="card-box">
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>label</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-why-us/1.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-caption">
- 							<h4>subtitle</h4>
- 							<h3>KENAPA KAMI</h3>
- 							<p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
- 						</div>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">JOIN NOW</a>
- 					</div>
- 				</div>
- 			</div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>label</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-why-us/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-caption">
+                            <h4>subtitle</h4>
+                            <h3>Kenapa Kami</h3>
+                            <p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">JOIN NOW</a>
+                    </div>
+                </div>
+            </div>
 
- 		</div>
- 		<div class="content-box" data-variant="card-variant-3">
+        </div>
+        <div class="content-box" data-variant="card-variant-3">
 
- 			<div class="card-box">
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-why-us/1.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>LOKASI STRATEGIS</h5>
- 							<p> Terletak di jantung kota. Dikelilingi oleh berbagai fasilitas umum dan akses
- 								transportasi yang mudah,
- 								menjadikan perjalanan Anda lebih efisien.</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-why-us/2.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Terpercaya</h5>
- 							<p>Dikelola oleh tim profesional yang berpengalaman dan terpercaya. Siap memastikan setiap
- 								aspek hunian Anda
- 								dijaga dengan baik. Dengan sistem keamanan 24 jam dan layanan pelanggan yang responsif.
- 							</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
- 				<div class="card">
- 					<div class="card-label">
- 						<h4>terlaris</h4>
- 					</div>
- 					<div class="card-img">
- 						<img src="./themes/property-sale/images/content/section-why-us/3.png" alt="">
- 					</div>
- 					<div class="card-desc">
- 						<div class="card-desc-head">
- 							<div class="card-date">
- 								<p>11 OKT 2024</p>
- 							</div>
- 							<div class="card-list">
- 								<ul>
- 									<li class="list-item"><a href="">lorem</a></li>
- 									<li class="list-item"><a href="">lorem</a></li>
- 								</ul>
- 							</div>
- 						</div>
- 						<div class="card-caption">
- 							<h6>subtitle</h6>
- 							<h5>Fasilitas Ekslusif</h5>
- 							<p> Menawarkan fasilitas eksklusif yang dirancang untuk meningkatkan kualitas dan kenyamanan
- 								hidup Anda.</p>
- 						</div>
- 					</div>
- 					<div class="card-price">
- 						<h4>Rp 3.200.000</h4>
- 						<h5>Rp 1.000.000</h5>
- 					</div>
- 					<div class="card-action">
- 						<a class="btn" href="">BUY</a>
- 					</div>
- 				</div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-why-us/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Lokasi Strategis</h5>
+                            <p> Terletak di jantung kota. Dikelilingi oleh berbagai fasilitas umum dan akses
+                                transportasi yang mudah,
+                                menjadikan perjalanan Anda lebih efisien.</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
 
- 			</div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-why-us/2.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Terpercaya</h5>
+                            <p>Dikelola oleh tim profesional yang berpengalaman dan terpercaya. Siap memastikan setiap
+                                aspek hunian Anda
+                                dijaga dengan baik. Dengan sistem keamanan 24 jam dan layanan pelanggan yang responsif.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
 
- 		</div>
- 		<div class="img-background">
- 			<img src="" alt="" />
- 		</div>
- 	</div>
- </section>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-sale/images/content/section-why-us/3.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Fasilitas Ekslusif</h5>
+                            <p> Menawarkan fasilitas eksklusif yang dirancang untuk meningkatkan kualitas dan kenyamanan
+                                hidup Anda.</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="img-background">
+            <img src="" alt="" />
+        </div>
+    </div>
+</section>
 
  <!-- section faq -->
  <section id="faq" data-backgroun="hidden">

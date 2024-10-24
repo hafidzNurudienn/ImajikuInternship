@@ -64,94 +64,110 @@ $title_current = 'Property Catalog';
 <!-- ====Section Fasilitas=== -->
 
 <section data-variant="vertical">
-  <div class="container">
-    <div class="summary-box" data-variant="summary-2">
-      <div class="card-box">
-        <div class="card-label">
-          <h3>FASILITAS</h3>
-        </div>
-        <div class="card-img">
-          <img src="" alt="">
-        </div>
-        <div class="card-desc">
-          <p></p>
-        </div>
-        <div class="card-action">
+    <div class="container">
+        <div class="summary-box" data-variant="summary-variant-1">
+
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h3>label</h3>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-extra-service/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-caption">
+                            <h4>subtitle</h4>
+                            <h3>Layanan Ekstra</h3>
+                            <p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">JOIN NOW</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
-      </div>
+        <div class="content-box" data-variant="card-variant-7">
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-7.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-7.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-7.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-7.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="content-box" data-variant="card-7">
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>Lorem ipsum dolor sit.</h4>
-          </div>
-          <div class="card-img">
-            <img class="" src="./themes/property-catalog/images/content/section-facility/1.png" alt="">
-          </div>
-          <div class="card-desc">
-            <h5>Kolam Renang</h5>
-            <p>Nikmati santai di kolam renang luas dengan area bersantai nyaman, kursi berjemur, payung, dan layanan minuman.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">submit</a>
-          </div>
-        </div>
-      </div>
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>Lorem ipsum dolor sit.</h4>
-          </div>
-          <div class="card-img">
-            <img class="" src="./themes/property-catalog/images/content/section-facility/2.jpg" alt="">
-          </div>
-          <div class="card-desc">
-            <h5>Pusat Kebugaran</h5>
-            <p>Menyajikan berbagai pilihan kopi, teh, dan minuman segar, serta makanan ringan dan pastry yang lezat.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">submit</a>
-          </div>
-        </div>
-      </div>
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>Lorem ipsum dolor sit.</h4>
-          </div>
-          <div class="card-img">
-            <img class="" src="./themes/property-catalog/images/content/section-facility/3.jpg" alt="">
-          </div>
-          <div class="card-desc">
-            <h5>Cafee</h5>
-            <p>Menyajikan berbagai pilihan kopi, teh, dan minuman segar, serta makanan ringan dan pastry yang lezat.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">submit</a>
-          </div>
-        </div>
-      </div>
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>Lorem ipsum dolor sit.</h4>
-          </div>
-          <div class="card-img">
-            <img class="" src="./themes/property-catalog/images/content/section-facility/4.jpg" alt="">
-          </div>
-          <div class="card-desc">
-            <h5>Ruang Rapat dan Konfrensi</h5>
-            <p>Dilengkapi teknologi presentasi terkini dan dapat menampung berbagai ukuran kelompok, dengan layanan katering dan dukungan teknis.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">submit</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <!-- Layanan Ekstra -->
@@ -183,144 +199,152 @@ $title_current = 'Property Catalog';
     </div>
     <div class="content-box" data-variant="card-variant-5">
 
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>terlaris</h4>
-          </div>
-          <div class="card-img">
-            <img src="./themes/property-catalog/images/content/section-extra-service/1.png" alt="">
-          </div>
-          <div class="card-desc">
-            <div class="card-desc-head">
-              <div class="card-date">
-                <p>11 OKT 2024</p>
-              </div>
-              <div class="card-list">
-                <ul>
-                  <li class="list-item"><a href="">lorem</a></li>
-                  <li class="list-item"><a href="">lorem</a></li>
-                </ul>
-              </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-extra-service/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Airport shuttle</h4>
+                                <p> Layanan antar-jemput dari dan ke bandara.</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
             </div>
-            <div class="card-caption">
-              <h6>subtitle</h6>
-              <h5>Airport shuttle</h4>
-                <p> Layanan antar-jemput dari dan ke bandara.</p>
-            </div>
-          </div>
-          <div class="card-price">
-            <h4>Rp 3.200.000</h4>
-            <h5>Rp 1.000.000</h5>
-          </div>
-          <div class="card-action">
-            <a class="btn" href="">BUY</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-label">
-            <h4>terlaris</h4>
-          </div>
-          <div class="card-img">
-            <img src="./themes/property-catalog/images/content/section-extra-service/2.png" alt="">
-          </div>
-          <div class="card-desc">
-            <div class="card-desc-head">
-              <div class="card-date">
-                <p>11 OKT 2024</p>
-              </div>
-              <div class="card-list">
-                <ul>
-                  <li class="list-item"><a href="">lorem</a></li>
-                  <li class="list-item"><a href="">lorem</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-caption">
-              <h6>subtitle</h6>
-              <h5>Tour guide</h5>
-              <p>Dengan Tujuan berbagai tempat wisata
-              </p>
-            </div>
-          </div>
-          <div class="card-price">
-            <h4>Rp 3.200.000</h4>
-            <h5>Rp 1.000.000</h5>
-          </div>
-          <div class="card-action">
-            <a class="btn" href="">BUY</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-label">
-            <h4>terlaris</h4>
-          </div>
-          <div class="card-img">
-            <img src="./themes/property-catalog/images/content/section-extra-service/3.png" alt="">
-          </div>
-          <div class="card-desc">
-            <div class="card-desc-head">
-              <div class="card-date">
-                <p>11 OKT 2024</p>
-              </div>
-              <div class="card-list">
-                <ul>
-                  <li class="list-item"><a href="">lorem</a></li>
-                  <li class="list-item"><a href="">lorem</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-caption">
-              <h6>subtitle</h6>
-              <h5>Spa treatments</h5>
-              <p>Memiliki beragam treatments untuk relaksasi</p>
-            </div>
-          </div>
-          <div class="card-price">
-            <h4>Rp 3.200.000</h4>
-            <h5>Rp 1.000.000</h5>
-          </div>
-          <div class="card-action">
-            <a class="btn" href="">BUY</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-label">
-            <h4>terlaris</h4>
-          </div>
-          <div class="card-img">
-            <img src="./themes/property-catalog/images/content/section-extra-service/4.png" alt="">
-          </div>
-          <div class="card-desc">
-            <div class="card-desc-head">
-              <div class="card-date">
-                <p>11 OKT 2024</p>
-              </div>
-              <div class="card-list">
-                <ul>
-                  <li class="list-item"><a href="">lorem</a></li>
-                  <li class="list-item"><a href="">lorem</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-caption">
-              <h6>subtitle</h6>
-              <h5>Laundry Service</h5>
-              <p> Menyediakan layanan laundry yang praktis dan cepat</p>
-            </div>
-          </div>
-          <div class="card-price">
-            <h4>Rp 3.200.000</h4>
-            <h5>Rp 1.000.000</h5>
-          </div>
-          <div class="card-action">
-            <a class="btn" href="">BUY</a>
-          </div>
-        </div>
 
-      </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-extra-service/2.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Tour guide</h5>
+                                <p>Dengan Tujuan berbagai tempat wisata
+                                </p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
 
-    </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-extra-service/3.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Spa treatments</h5>
+                                <p>Memiliki beragam treatments untuk relaksasi</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-extra-service/4.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Laundry Service</h5>
+                                <p> Menyediakan layanan laundry yang praktis dan cepat</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h4>Rp 3.200.000</h4>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     <div class="img-background">
       <img src="" alt="" />
     </div>
@@ -719,77 +743,110 @@ $title_current = 'Property Catalog';
 
 <!-- ===section experience==== -->
 <section data-variant="vertical">
-  <div class="container">
-    <div class="summary-box" data-variant="summary-1">
-      <div class="card-box">
-        <div class="card-label">
-          <h3>PENGALAMAN</h3>
-        </div>
-        <div class="card-img">
-          <img src="" alt="">
-        </div>
-        <div class="card-desc">
-          <p>Hiburan adalah investasi terbaik untuk diri sendiri. Nikmati momen-momen berharga bersama orang terkasih dan ciptakan kenangan indah yang tak terlupakan</p>
-        </div>
-        <div class="card-action">
+    <div class="container">
+        <div class="summary-box" data-variant="summary-variant-1">
+
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h3>label</h3>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-extra-service/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-caption">
+                            <h4>subtitle</h4>
+                            <h3>Layanan Ekstra</h3>
+                            <p>Kami adalah pilihan terbaik untuk Anda yang mencari apartemen</p>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">JOIN NOW</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
-      </div>
+        <div class="content-box" data-variant="card-variant-8">
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-8.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-8.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-8.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>Lorem ipsum dolor sit.</h4>
+                    </div>
+                    <div class="card-img">
+                        <img class="" src="./themes/default/images/content/card-variant-8.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati velit ad magni
+                            alias libero itaque eveniet, quam commodi eaque. Tenetur repudiandae obcaecati voluptate
+                            adipisci.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="content-box" data-variant="card-8">
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>Lorem ipsum dolor sit.</h4>
-          </div>
-          <div class="card-img">
-            <img class="" src="./themes/property-catalog/images/content/section-experience/1.png" alt="">
-          </div>
-          <div class="card-desc">
-            <h5>Pantai</h5>
-            <p>Pasir putih yang menakjubkan dengan air jernih kebiruan. Sangat ramah untuk anak-anak yang ingin bermain pasir dan berenang di perairan dangkal yang aman. Lokasi ideal untuk pemotretan pra-pernikahan dengan latar belakang matahari terbenam yang memukau. Area piknik luas tersedia untuk acara keluarga atau gathering perusahaan. Nikmati berbagai olahraga air seperti jet ski dan banana boat. Spot-spot fotogenik tersebar di sepanjang pantai, termasuk ayunan kayu dan gubuk-gubuk bambu yang instagramable. Pasar suvenir tradisional hanya berjarak 25 menit perjalanan dari hotel. Rasakan keseruan liburan pantai tanpa harus meninggalkan kenyamanan hotel Anda.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">submit</a>
-          </div>
-        </div>
-      </div>
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>Lorem ipsum dolor sit.</h4>
-          </div>
-          <div class="card-img">
-            <img class="" src="./themes/property-catalog/images/content/section-experience/2.png" alt="">
-          </div>
-          <div class="card-desc">
-            <h5>Taman Bunga Pelangi</h5>
-            <p>Mempesona dengan beraneka ragam bunga warna-warni. Anak-anak akan senang berlarian di antara kebun bunga dan labirin tanaman. Tempat sempurna untuk foto pre-wedding di tengah hamparan bunga yang indah. Terbuka untuk acara keluarga atau pertemuan bisnis santai. Nikmati aktivitas seperti piknik, flying fox, dan bersepeda. Jembatan gantung dan rumah pohon menawarkan latar belakang foto yang unik dan instagramable. Toko-toko suvenir yang menjual produk bunga kering dan kerajinan lokal terletak tepat di pintu keluar taman. Nikmati keindahan alam yang menyegarkan hanya beberapa langkah dari kamar hotel Anda.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">submit</a>
-          </div>
-        </div>
-      </div>
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>Lorem ipsum dolor sit.</h4>
-          </div>
-          <div class="card-img">
-            <img class="" src="./themes/property-catalog/images/content/section-experience/3.png" alt="">
-          </div>
-          <div class="card-desc">
-            <h5>Danau</h5>
-            <p>Dihiasi perbukitan hijau nan asri. Pinggir danau yang masih dangkal cocok untuk anak-anak bermain dan berenang dengan aman. Setting romantis sempurna untuk foto pre-wedding dengan latar belakang air danau yang berkilau. Tersedia area piknik dan pondok-pondok tepi danau untuk acara keluarga atau tim. Berbagai aktivitas air seperti kano, dan perahu dayung tersedia untuk disewa. Dermaga kayu yang memanjang ke tengah danau menjadi spot selfie favorit yang instagramable. Pasar terapung tradisional beroperasi setiap pagi, menjual suvenir dan makanan lokal hanya 30 menit dari hotel. Nikmati ketenangan alam danau tanpa harus jauh-jauh dari kenyamanan akomodasi Anda.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">submit</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <!-- section why us -->
@@ -821,116 +878,121 @@ $title_current = 'Property Catalog';
     </div>
     <div class="content-box" data-variant="card-variant-2">
 
-      <div class="card-box">
-        <div class="card">
-          <div class="card-label">
-            <h4>terlaris</h4>
-          </div>
-          <div class="card-img">
-            <img src="./themes/property-catalog/images/content/section-why-us/1.png" alt="">
-          </div>
-          <div class="card-desc">
-            <div class="card-desc-head">
-              <div class="card-date">
-                <p>11 OKT 2024</p>
-              </div>
-              <div class="card-list">
-                <ul>
-                  <li class="list-item"><a href="">lorem</a></li>
-                  <li class="list-item"><a href="">lorem</a></li>
-                </ul>
-              </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-why-us/1.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Fasilitas Lengkap</h5>
+                            <p> Menawarkan berbagai fasilitas lengkap, dengan akses Wi-Fi cepat disemua area hotel
+                                .Memberikan kenyamanan dan
+                                hiburan bagi anda selama menginap.</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h6>Rp 3.200.000</h6>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
             </div>
-            <div class="card-caption">
-              <h6>subtitle</h6>
-              <h5>Fasilitas Lengkap</h5>
-              <p> Menawarkan berbagai fasilitas lengkap, dengan akses Wi-Fi cepat disemua area hotel
-                .Memberikan kenyamanan dan
-                hiburan bagi anda selama menginap.</p>
-            </div>
-          </div>
-          <div class="card-price">
-            <h6>Rp 3.200.000</h6>
-            <h5>Rp 1.000.000</h5>
-          </div>
-          <div class="card-action">
-            <a class="btn" href="">BUY</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-label">
-            <h4>terlaris</h4>
-          </div>
-          <div class="card-img">
-            <img src="./themes/property-catalog/images/content/section-why-us/2.png" alt="">
-          </div>
-          <div class="card-desc">
-            <div class="card-desc-head">
-              <div class="card-date">
-                <p>11 OKT 2024</p>
-              </div>
-              <div class="card-list">
-                <ul>
-                  <li class="list-item"><a href="">lorem</a></li>
-                  <li class="list-item"><a href="">lorem</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-caption">
-              <h6>subtitle</h6>
-              <h5>Pelayanan Terbaik</h5>
-              <p>Memiliki staf yang ramah dan profesional, customer service 24 jam . Setiap kebutuhan tamu
-                akan ditangani
-                dengan cepat dan efisien.</p>
-            </div>
-          </div>
-          <div class="card-price">
-            <h6>Rp 3.200.000</h6>
-            <h5>Rp 1.000.000</h5>
-          </div>
-          <div class="card-action">
-            <a class="btn" href="">BUY</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-label">
-            <h4>terlaris</h4>
-          </div>
-          <div class="card-img">
-            <img src="./themes/property-catalog/images/content/section-why-us/3.png" alt="">
-          </div>
-          <div class="card-desc">
-            <div class="card-desc-head">
-              <div class="card-date">
-                <p>11 OKT 2024</p>
-              </div>
-              <div class="card-list">
-                <ul>
-                  <li class="list-item"><a href="">lorem</a></li>
-                  <li class="list-item"><a href="">lorem</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-caption">
-              <h6>subtitle</h6>
-              <h5>Keamanan Dan Privasi</h5>
-              <p>Menerapkan langkah-langkah keamanan yang ketat seperti kartu akses,CCTV, dan petugan
-                keamanan 24 jam untuk
-                memastikan bahwa tamu merasa aman dan nyaman selama menginap.</p>
-            </div>
-          </div>
-          <div class="card-price">
-            <h6>Rp 3.200.000</h6>
-            <h5>Rp 1.000.000</h5>
-          </div>
-          <div class="card-action">
-            <a class="btn" href="">BUY</a>
-          </div>
-        </div>
 
-      </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-why-us/2.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Pelayanan Terbaik</h5>
+                            <p>Memiliki staf yang ramah dan profesional, customer service 24 jam . Setiap kebutuhan tamu
+                                akan ditangani
+                                dengan cepat dan efisien.</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h6>Rp 3.200.000</h6>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
 
-    </div>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-label">
+                        <h4>terlaris</h4>
+                    </div>
+                    <div class="card-img">
+                        <img src="./themes/property-catalog/images/content/section-why-us/3.png" alt="">
+                    </div>
+                    <div class="card-desc">
+                        <div class="card-desc-head">
+                            <div class="card-date">
+                                <p>11 OKT 2024</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                    <li class="list-item"><a href="">lorem</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-caption">
+                            <h6>subtitle</h6>
+                            <h5>Keamanan Dan Privasi</h5>
+                            <p>Menerapkan langkah-langkah keamanan yang ketat seperti kartu akses,CCTV, dan petugan
+                                keamanan 24 jam untuk
+                                memastikan bahwa tamu merasa aman dan nyaman selama menginap.</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <h6>Rp 3.200.000</h6>
+                        <h5>Rp 1.000.000</h5>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     <div class="img-background">
       <img src="" alt="" />
     </div>
